@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: rgb(23,150,218);
+  height: 100%;
+}
+
+html {
+  font-size; 16px;
+}
+
+body {
+  color: #fff;
+  font: normal 500 1rem/1.5 Fira Mono, sans-serif;
+  padding: 2rem;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  color: rgba(255,255,255,.75);
+}
+
+a:hover {
+  color: #fff;
+}
+
+h1 {
+  background-color: rgba(0,0,0,.65);
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.directory__item__link {
+  display: block;
+  font-weight: 300;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.directory__item__link:hover {
+  background-color: rgba(0,0,0,.05);
+}
+
+.directory__item + .directory__item {
+  border-top: 1px solid rgba(255,255,255,.25);
+}
+
+.directory__item__author__by {
+  color: rgba(255,255,255,.75);
+  display: inline-block;
+  padding: 1rem;
+}
+
+.directory__item__title {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.directory__item {
+  margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.directory__item__description {
+  color: rgba(255,255,255,.55);
+  font-size: 0.8rem;
+}
+
+.directory__item__link:hover .directory__item__description {
+  color: rgba(255,255,255,.75);
+}
+
+.directory__item__source {
+  display: block;
+  color: red;
+}

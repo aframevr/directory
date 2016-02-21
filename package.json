@@ -1,0 +1,6 @@
+{
+  "name": "aframe-directory",
+  "version": "1.0.0",
+  "description": "Curated collection of A-Frame sites.",
+  "main": "index.json"
+}
